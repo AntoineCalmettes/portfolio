@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+.bg-white{
+  background: white!important;
+}
+
+#div-competences{
+  width: 100%;
+}
+
+.photo-formation{
+  padding-top :200px;
+}
+
+#div-formation{
+  background: white!important;
+}
+}

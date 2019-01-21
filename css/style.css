@@ -32,7 +32,7 @@ p {
 p,
 ul,
 li {
-    color: #666;
+    color: black;
     /* list-style: none; */
 }
 section {
@@ -532,4 +532,53 @@ a:visited {
 }
 .width100{
   width: 100%;
+}
+
+.height100{
+  height: 250px;
+}
+
+#div-competences{
+background-color: rgba(231, 230, 225, 0.9);
+width: 130%;
+height: 280px;
+padding:60px;
+}
+
+.photo-competences{
+  background-image: url(../img/developper1-about.jpeg);
+  background-repeat: no-repeat;
+    height: 400px;;
+}
+
+.padding-bottom-cont{
+  padding-bottom: 50px;
+}
+.padding-top-row{
+  padding-top: 70px;
+}
+
+.photo-formation{
+  background-image: url(../img/black-mac.jpeg);
+  background-repeat: no-repeat;
+    height: 600px;
+    background-position: right;
+}
+
+#div-formation{
+  background-color: rgba(231, 230, 225, 0.9);
+  padding: 20px;
+}
+
+.photo-experience{
+  background-image: url(../img/experience.jpeg);
+  background-repeat: no-repeat;
+    height: 450px;
+    background-position: left;
+
+}
+
+#container-experience{
+  background-color: rgba(231, 230, 225, 0.9);
+  padding: 20px;
 }
