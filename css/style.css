@@ -529,6 +529,7 @@ a:visited {
     background-color: white !important;
     border: 1px solid black  !important;
     font-family: 'Open Sans', sans-serif  !important;
+    color:black!important;
 }
 .width100{
   width: 100%;
