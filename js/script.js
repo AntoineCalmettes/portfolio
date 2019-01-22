@@ -1,3 +1,4 @@
+
 // Toggle Menu
 $(window).load(function() {
   $(".btn-nav").on("click tap", function() {
@@ -11,7 +12,7 @@ $(window).load(function() {
 
 var shuffleme = (function( $ ) {
   'use strict';
-  var $grid = $('#grid'), //locate what we want to sort 
+  var $grid = $('#grid'), //locate what we want to sort
       $filterOptions = $('.portfolio-sorting li'),  //locate the filter categories
       $sizer = $grid.find('.shuffle_sizer'),    //sizer stores the size of the items
 
@@ -26,11 +27,11 @@ var shuffleme = (function( $ ) {
     // instantiate the plugin
     $grid.shuffle({
       itemSelector: '[class*="col-"]',
-      sizer: $sizer    
+      sizer: $sizer
     });
   },
 
-      
+
 
 // Set up button clicks
   setupFilters = function() {
@@ -84,7 +85,7 @@ var shuffleme = (function( $ ) {
     setTimeout(function() {
       debouncedLayout();
     }, 500);
-  };      
+  };
 
   return {
     init: init
@@ -95,7 +96,3 @@ $(document).ready(function()
 {
   shuffleme.init(); //filter portfolio
 });
-
-
- 
-
