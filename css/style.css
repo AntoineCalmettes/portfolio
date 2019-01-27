@@ -54,6 +54,9 @@ a:visited {
     color: #666;
     text-decoration: none;
 }
+i{
+  font-size: 50px;
+}
 .vcenter {
     position: relative;
     top: 50%;
@@ -590,4 +593,8 @@ padding:60px;
   border: 1px solid #1b1b1b !important;
   font-family: 'Open Sans', sans-serif !important;
   color: white!important;
+}
+
+.fa-linkedin{
+  margin-left: 30px;
 }
