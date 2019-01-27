@@ -20,10 +20,9 @@
 }
 
 .bg-mobile-gradient{
-   background-image: linear-gradient(to bottom, #ffffff, #f5f5f5, #ebebeb, #e1e1e1, #d7d7d7)!important;
+    background-image: linear-gradient(to bottom, #ffffff, #fcfcfc, #f9f9f9, #f6f6f6, #f3f3f3)!important;
 }
 
-.shadow-mobile{
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+.shadow-mobile{  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }
 }
