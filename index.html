@@ -1,76 +1,266 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <title>Antoine Calmettes- Portfolio - Développeur Web Full-Stack Marseille</title>
-      <!-- Css -->
-      <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i" rel="stylesheet">
-        <link rel="stylesheet" href="css/vivify.min.css">
-      <link href="css/style.css" rel="stylesheet">
-      <link href="css/responsive.css" rel="stylesheet">
-   </head>
-   <body>
-      <nav class="navbar navbar-default navbar-fixed-top">
-         <div class="col-md-12">
-            <div class="nav">
-               <button class="btn-nav">
-               <span class="icon-bar inverted top"></span>
-               <span class="icon-bar inverted middle"></span>
-               <span class="icon-bar inverted bottom"></span>
-               </button>
-            </div>
-            <a class="navbar-brand" href="index.html">
-            <img class="logo" src="img/logo.png" alt="logo">
-            </a>
-            <div class="nav-content hideNav hidden">
-               <ul class="nav-list vcenter">
-                  <li class="nav-item"><a class="item-anchor" href="index.html">Accueil</a></li>
-                  <li class="nav-item"><a class="item-anchor" href="about.html">À propos de moi</a></li>
-                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Mes projets</a></li>
-                  <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <!-- Header -->
-      <div class="span12">
-         <div class="col-md-6 no-gutter text-center fill bg-mobile-gradient">
-            <h2 class="vcenter ">Antoine Calmettes</h2>
-            <h3 class="vcenter">Simplicité Authenticité</h3>
-            <h4 class="vcenter">-Développeur web full stack-</h4>
-         </div>
-         <div class="col-md-6 no-gutter text-center d-none">
-            <div id="header" data-speed="2" data-type="background">
-               <div id="headslide" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner" role="listbox">
-                     <div class="item active">
-                        <img src="img/developper1.jpeg" alt="Slide">
-                     </div>
-                     <div class="item">
-                        <img src="img/developper2.jpeg" alt="Slide">
-                     </div>
-                     <div class="item">
-                        <img src="img/developper3.png" alt="Slide">
-                     </div>
-                     <div class="item">
-                        <img src="img/developper4.jpeg" alt="Slide">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Antoine Calmettes- Portfolio - Développeur Web Full-Stack Marseille</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Prompt:400,500,600,700,900|Proza+Libre:400,500,600,700" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style=">
+  <div class=" collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ctn-1">A propos de moi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ctn-2">Projets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
+  <header class="container-fluid background-header">
+    <div class="row" id="height-row">
+      <div class="col-lg-1 offset display-none">
+
       </div>
-      <div style="clear:both;"></div>
-      <!-- script -->
-      <script src="js/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/menu-color.js"></script>
-      <script src="js/modernizr.js"></script>
-      <script src="js/script.js"></script>
-   </body>
+      <div class="col-lg-8 margin-top-font">
+        <h1 data-aos="fade-right" data-aos-duration="2000" class="font-header sizepolicetitle60">ANTOINE</h1>
+        <h1 data-aos="fade-right" data-aos-duration="2500" class="font-header ml-5 sizepolicetitle60 margin-left-0">CALMETTES</h1>
+        <h2 data-aos="fade-right" data-aos-duration="3000" class="font-dev sizepolicetitle30 margin-left-0" id="margin-left-dev">Développeur web</h2>
+        <div class="wave left-mobile"></div>
+        <div class="blob">
+          <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+            <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <div class="container" id="ctn-1">
+    <div class="row">
+      <div class="col-lg-7 display-none">
+        <img src="img/experience.jpeg" data-aos="fade-right" data-aos-duration="2500" class="img-fluid left-mobile" id="img-1" alt="">
+      </div>
+      <div class="col-lg-4" id="title-propos" data-aos="fade-up-left" data-aos-duration="3000" >
+        <h3 class="blue-mobile">Mes compétences</h3>
+      </div>
+      <div class="col-lg-8 bg-competence left-mobile" data-aos="fade-left" id="div-competences"data-aos-duration="1000">
+        <div class="container-fluid">
+          <div class="row" data-aos="fade-left" data-aos-duration="2500">
+            <div class="col-lg-4">
+              <h4 class="align-middle blue-mobile"><strong>Front-end </strong></h4>
+              <ul class="list-unstyled blue-mobile">
+                <li>HTML 5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Bootstrap 4</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="blue-mobile"><strong>Back-end </strong></h4>
+              <ul class="list-unstyled blue-mobile">
+                <li>MySQL</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="blue-mobile"><strong>Bureautique </strong></h4>
+              <ul class="list-unstyled blue-mobile">
+                <li>Linux</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Trello</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" id="div-formation" data-aos="fade-down-right" data-aos-duration="1000">
+        <h3 class="title-formation">Formations</h3>
+        <div class="bg-formation" data-aos="zoom-in-down" data-aos-duration="3000">
+          <p>
+            <strong>2018-2019 :</strong> Passerelle numérique - formation développeur web Full-Stack à l'école Centrale de Marseille
+          </p>
+          <br>
+          <p><strong>2015-2017 :</strong> BTS DRB (dessinateur industriel 3D et programmeur de commande numérique 5 axes) au lycée des métiers d’arts, du bois et de l’ameublement à Revel</p>
+          <br>
+          <p><strong>2013-2014 :</strong> Programme pré-universitaire Science Humaine au Cegep de Thetford-Mines au Canada</p>
+
+        </div>
+      </div>
+      <div class="col-lg-5" id="div-img-2" data-aos="zoom-out-left" data-aos-duration="1500">
+        <img src="img/black-mac.jpeg" class="img-fluid display-none" id="img-2" alt="">
+      </div>
+      <div class="col-lg-7">
+
+        <img src="img/developper1.jpeg" data-aos="fade-right" data-aos-duration="3000" class="img-fluid display-none" id="img-3" alt="">
+        <div id="filtre-img3">
+          <h3 class="title-experiences">Mes expériences</h3>
+          <p>
+            <strong> Juillet 2018 – Septembre 2018 : </strong>Ambassadeur du tri pour l'entreprise Kro'Kan - Informer et inciter les habitants de Marseille à trier correctement leurs déchets (recyclage, verre, papier, encombrants, piles,etc...)
+          </p>
+          <br>
+          <p><strong>Novembre 2017 – Mai 2018 :</strong> Armée de terre - Hussards parachutistes à Tarbes</p>
+          <br>
+          <p><strong>Janvier 2017 – Mars 2017 : </strong>Dessinateur industriel CAO/FAO en stage à Bareau Menuiserie - Dessin d’ameublement en 3D sur Top solid et relevé de menuiserie sur AutoCad</p>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container" id="ctn-2">
+    <div class="row">
+      <div class="col-lg-7" data-aos="fade-down" data-aos-duration="1000">
+        <h3 class="title-projet sizepolicetitle60">Mes</h3>
+        <h3 class="title-projet pl-5 sizepolicetitle60"> Projets</h3>
+      </div>
+      <div class="col-lg-5 center" data-aos="fade-left" data-aos-duration="1500">
+        <img src="img/mesprojets.svg" id="" class="img-fluid svg-projets pt-mobile-30"alt="">
+      </div>
+      <div class="col-lg-6 pt-6 center" data-aos="fade-right" data-aos-duration="2800">
+        <img src="img/Brutalist.png" class="img-projet img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 pt-6" data-aos="fade-left" data-aos-duration="1800">
+        <h3 class="blue"> Festinal Néant</h3>
+        <h4 class="blue"><strong class="font-weight-bold">Description : </strong> Concevoir et créer un site Internet présentant un événement
+          fictif lié aux cultures numériques. Le design doit respecter les codes du brutalist design commercial.</h4>
+        <h4 class="blue"><strong class="font-weight-bold">Technologies : </strong>HTML5 CSS3 Bootstrap4 Javascript</h4>
+        <a href="https://antoinecalmettes.github.io/Brutalist-Project-Neant" /><button type="button" class="btn btn-outline-light">Voir le projet</button></a>
+
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+          Voir les maquettes
+        </button>
+      </div>
+
+      <div class="col-lg-6 pt-6" data-aos="fade-right" data-aos-duration="1800">
+        <h3 class="blue"><strong class="font-weight-bold"> Green-drive</strong> </h3>
+        <h4 class="blue"><strong class="font-weight-bold">Description : </strong> Concevoir et réaliser la page d’accueil d’un site de e-commerce
+          fictif.
+          Le concept du site doit être imaginé (nom de l’entreprise,
+          marchandises vendues, clientèle ciblée, etc.).
+          Les marchandises vendues via le site doivent avoir une utilité sociétale (exemple : produits
+          équitables, anti-gaspillage, programmes éducatifs, etc.).</h4>
+        <h4 class="blue"><strong class="font-weight-bold">Technologies :</strong> HTML5 et CSS3</h4>
+        <a href="https://antoinecalmettes.github.io/Green-drive/" /><button type="button" class="btn btn-outline-light">Voir le projet</button></a>
+
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal1">
+          Voir les maquettes
+        </button>
+      </div>
+      <div class="col-lg-6 pt-6 text-center" data-aos="fade-left" data-aos-duration="2800">
+        <img src="img/Green-drive.png" class="img-projet img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-6 pt-6 center" data-aos="fade-right" data-aos-duration="2800">
+      <img src="img/Modrian.png" class="img-fluid img-projet" alt="" >
+      </div>
+
+      <div class="col-lg-6 pt-6" data-aos="fade-left" data-aos-duration="1800">
+        <h3 class="blue"><strong class="font-weight-bold">Mondrian</strong></h3>
+        <h4 class="blue"><strong class="font-weight-bold">Description : </strong> Reproduire un Mondrian uniquement en flexbox et avec des cases qui changent de couleurs au clic.</h4>
+        <h4 class="blue"><strong class="font-weight-bold">Technologies :</strong> HTML5 et CSS3</h4>
+        <h4 class="blue">     <a href="https://antoinecalmettes.github.io/Mondrian/"/><button type="button" class="btn btn-outline-light">Voir le projet</button></a></h4>
+      </div>
+    </div>
+  </div>
+
+<div class="container padding-container" id="contact">
+<div class="row">
+<div class="col-lg-6" data-aos="zoom-in">
+<h2 class="title-projet sizepolicetitle60">Contact</h2>
+</div>
+<div class="col-lg-6 text-center">
+<img src="img/contact.svg" class="svg-projets pt-mobile-30"alt="">
+</div>
+
+<div class="col-lg-12 center">
+  <h4 class="blue"><a class="blue sizepolicetitle20 pt-mobile-30"href="mailto:calmettes.antoine2@gmail.com">calmettes.antoine2@gmail.com</a> <a href="https://www.linkedin.com/in/antoine-calmettes/"><i class="fab fa-linkedin ml-3 blue pl-5 pt-mobile-30 "></i></a></h4>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title blue" id="exampleModalLabel"> Désigné par Antoine Calmettes</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/maquette-accueil-desktop-1.jpg" class="width100" alt="">
+          <img src="img/maquette-programme-desktop-1.jpg" class="width100" alt="">
+          <img src="img/maquette-infos-desktop-1.jpg" class="width100" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title blue" id="exampleModalLabel"> Désigné par Antoine Calmettes</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/maquette-site-web1-1.png" class="width100" alt="">
+          <img src="img/maquette-site-web 2-1.png" class="width100" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
