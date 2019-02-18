@@ -81,4 +81,9 @@ margin-left: 0px;
 .wave{
   display: none;
 }
+#title-propos{
+font-size: 30px;
+padding-bottom: 20px;
+text-align: center;
+}
 }
